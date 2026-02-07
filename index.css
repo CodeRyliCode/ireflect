@@ -1,8 +1,21 @@
 body {
     margin: 0;
-    font-family: Georgia;
+    font-family: "Kannada MN";
 }
 
+.action-button {
+    background-color: darksalmon;
+    font-family: "Kannada MN";
+    font-size: 18px;
+
+
+
+    min-width: 200px;
+    min-height: 48px;
+
+    border: none;
+    cursor: pointer;
+}
 
 .app {
     background-color: black;
@@ -10,29 +23,39 @@ body {
     min-height: 100vh;
     flex-direction: column;
     display: flex;
-    font-family: Georgia;
+    font-family: "Kannada MN";
 }
 
-.reflect-button {
-background-color: darksalmon;
-    width: 40%;
-    height: 30%;
-    font-size: 18px;
-    font-family: Georgia;
 
-}
-
-.button-container {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 40%;
-    height: 30%;
+.reflect-button-container {
+    flex: 1; /* fill remaining space below nav */
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 24px;
 }
+
+
+.text-area {
+    width: min(90vw, 800px);
+    height: min(60vh, 600px);
+    font-family: "Kannada MN";
+
+    font-size: 16px;
+    padding: 16px;
+    resize: vertical;
+
+    box-sizing: border-box;
+}
+
+
+
+.save-button-container {
+    display: flex;
+    justify-content: center;
+}
+
 
 .nav {
     position: relative;
