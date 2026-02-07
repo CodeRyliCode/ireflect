@@ -1,3 +1,39 @@
+body {
+    margin: 0;
+    font-family: Georgia;
+}
+
+
+.app {
+    background-color: black;
+    width: 100vw;
+    min-height: 100vh;
+    flex-direction: column;
+    display: flex;
+    font-family: Georgia;
+}
+
+.reflect-button {
+background-color: darksalmon;
+    width: 40%;
+    height: 30%;
+    font-size: 18px;
+    font-family: Georgia;
+
+}
+
+.button-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 40%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .nav {
     position: relative;
     height: 60px;

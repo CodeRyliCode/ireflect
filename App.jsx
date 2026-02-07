@@ -2,9 +2,9 @@
 const App = () => {
 
     return (
-        <div>
+        <div className={"app"}>
         <NavBar/>
-
+<ReflectButton/>
         </div>
     )
 }
