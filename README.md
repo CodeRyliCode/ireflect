@@ -1,0 +1,1 @@
+iReflect is a personal journal app where you sit with your reflections knowing you can do anything you set your mind to. Enjoy a calendar view and cherish all that makes you, you. Hold gratitude in keepsaking pictures and videos to remind you how far you've come and the oceans you'll cross.
