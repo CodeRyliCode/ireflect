@@ -1,5 +1,5 @@
 
-const NavBar = () => {
+const NavBar = ({onClickCalendar, onClickHome}) => {
 
     return (
         <nav className={"nav"}>
@@ -9,7 +9,12 @@ const NavBar = () => {
 
             <ul className={"navList"}>
                 <li className={"navItem"}>
-                    Calendar
+
+                <button className="nav-button" onClick={onClickHome}>Home</button>
+                </li>
+                <li className={"navItem"}>
+
+                <button className="nav-button" onClick={onClickCalendar}>Calendar</button>
                 </li>
                 <li className={"navItem"}>
                     Photos

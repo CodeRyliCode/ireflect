@@ -1,10 +1,20 @@
 
 const App = () => {
+    const [view, setView] = React.useState("JournalView")
+
+    const onClickCalendar = () => {
+        setView("CalendarView")
+    }
+
+    const onClickHome = () => {
+        setView("JournalView")
+    }
 
     return (
         <div className={"app"}>
-        <NavBar/>
-<ReflectButton/>
+        <NavBar onClickCalendar={onClickCalendar} onClickHome={onClickHome}/>
+            {view === "JournalView" ? (
+<JournalView/>) : (<CalendarView/>)}
         </div>
     )
 }
